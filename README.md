@@ -12,8 +12,52 @@ jasonsoft-koa-controller
 ### Installation
 
 ```sh
-$ npm install jasonsoft-koa-controller 
+$ npm install jasonsoft-koa-controller --save-prod
 ```
+
+**Example**  
+Basic usage:
+
+```javascript
+import Koa from 'koa';
+import Router from '@koa/router';
+import controller from 'jasonsoft-koa-controller';
+
+const app = new Koa();
+const router = new Router();
+
+// 注入控制器 默认路由控制器路径 'src/controllers'
+controller(router);
+
+// 注入控制器 自定义路径
+// controller(router, 'src/controllers');
+
+app.use(router.routes()).use(router.allowedMethods());
+
+app.listen(3000);
+```
+
+Create a test controller: 
+```javascript
+// 新建控制器 src/controllers/test.js
+
+/** 
+ * 请求方式： get post put del all 
+ * 这里如果不指定请求方式，默认为 all 
+ * 如果需要指定把注释打开，修改成你要指定的请求方式
+ */
+export const method = 'get'; 
+
+/**
+ * 测试API
+ * http://localhost:3000/test
+ * Added by Jason.Song on 2021/01/11 19:48:39
+ */
+export default (ctx, next) => {
+  ctx.body = '测试API';
+};
+```
+### [完整示例 Example](https://github.com/koajs/router)
 
 ### License
 

@@ -57,7 +57,7 @@ export default (ctx, next) => {
   ctx.body = '测试API';
 };
 ```
-### [完整示例 Example](https://github.com/koajs/router)
+### [完整示例 Example](https://github.com/JasonSoft-Net/jasonsoft-koa-controller/tree/main/example)
 
 ### License
 

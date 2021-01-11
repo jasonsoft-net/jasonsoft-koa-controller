@@ -1,0 +1,29 @@
+{
+  "name": "jasonsoft-koa-controller",
+  "version": "1.0.0",
+  "description": "@koa/router or koa-router extension controller",
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonSoft-Net/jasonsoft-koa-controller.git"
+  },
+  "keywords": [
+    "jasonsoft-koa-controller",
+    "router",
+    "koa-router",
+    "@koa/router",
+    "koa",
+    "controller",
+    "koa-controller",
+    "mvc"
+  ],
+  "author": "Jason Song (成长的小猪)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JasonSoft-Net/jasonsoft-koa-controller/issues"
+  },
+  "homepage": "https://github.com/JasonSoft-Net/jasonsoft-koa-controller#readme"
+}

@@ -1,6 +1,6 @@
 {
   "name": "jasonsoft-koa-controller",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "@koa/router or koa-router extension controller",
   "main": "./lib",
   "types": "types/index.d.ts",

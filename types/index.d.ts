@@ -34,4 +34,4 @@ app.listen(3000);
  * @param dir     控制器目录路径，默认'src/controllers'
  * @param debug   打印日志，默认不打印 false
  */
-export default function controller(router: any, dir?: string, debug?: boolean = false): void;
+export default function controller(router: any, dir?: string, debug?: boolean): void;

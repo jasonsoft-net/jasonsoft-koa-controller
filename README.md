@@ -44,9 +44,8 @@ Create a test controller:
 /** 
  * 请求方式： get post put del all 
  * 这里如果不指定请求方式，默认为 all 
- * 如果需要指定把注释打开，修改成你要指定的请求方式
  */
-export const method = 'get'; 
+export const method = 'all'; 
 
 /**
  * 测试API

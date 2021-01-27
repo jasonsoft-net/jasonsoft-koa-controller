@@ -1,10 +1,9 @@
 {
   "name": "jasonsoft-koa-controller",
-  "version": "1.0.8",
+  "version": "1.2.0",
   "description": "@koa/router or koa-router extension controller",
-  "main": "./lib",
+  "main": "./lib/index.js",
   "types": "types/index.d.ts",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

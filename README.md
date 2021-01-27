@@ -1,4 +1,4 @@
-jasonsoft-koa-controller
+![Project Icon][project-icon] jasonsoft-koa-controller
 =================
 @koa/router or koa-router extension controller
 
@@ -73,3 +73,5 @@ MIT
 
 
 [downloads-image]: https://img.shields.io/npm/dt/jasonsoft-koa-controller.svg?style=flat-square
+
+[project-icon]: https://avatars2.githubusercontent.com/u/22167571?s=40&v=4
